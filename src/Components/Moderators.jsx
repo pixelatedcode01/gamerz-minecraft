@@ -6,7 +6,7 @@ export default function Moderators() {
             <div className="mod-header row">
                 <p>Meet the Mobs</p>
             </div>
-            <div className="mod-container row gp-16">
+            <div className="mod-container row gp-16 al-ctr jc-ctr">
                 <div className="mod-one moderator itachi col al-ctr jc-ctr gp-24">
                     <img src="itachi.png" alt="" />
                     <p>itachideiyo</p>

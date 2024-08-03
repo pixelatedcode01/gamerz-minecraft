@@ -3,7 +3,7 @@
 }
 
 .heading {
-    font-size: 6.5vw;
+    font-size: max(4rem, 6.5vw);
     font-weight: 900;
     letter-spacing: .20rem;
     user-select: none;
@@ -12,7 +12,7 @@
 
 .heading::after {
     content: "Z";
-    font-size: 6.7vw;
+    font-size: max(4.2rem, 7vw);
     font-family: 'Pixelify Sans', sans-serif;
 }
 
@@ -21,6 +21,7 @@
 }
 
 .sub-heading {
+    text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;

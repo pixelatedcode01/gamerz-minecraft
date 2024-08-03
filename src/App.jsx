@@ -8,7 +8,7 @@ import Moderators from './Components/Moderators'
 function App({ children }) {
 
   return (
-    <div className='main-container'>
+    <div className='main-container col'>
       <Header />
       <BannerIcons />
       <MainHeader />

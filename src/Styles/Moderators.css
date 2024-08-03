@@ -1,5 +1,6 @@
 .mods-container {
     padding: 1rem;
+    flex: 1;
 }
 
 .mod-header {
@@ -10,10 +11,15 @@
 
 }
 
+.mod-container {
+    flex-wrap: wrap;
+}
+
 .mod-container div {
     height: fit-content;
     width: fit-content;
-    padding: 2rem;
+    padding: max(1rem, 1.25vw);
+
 }
 
 .moderator {
