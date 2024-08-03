@@ -1,0 +1,51 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flx-wrp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.al-ctr {
+    align-items: center;
+}
+
+.jc-ctr {
+    justify-content: center;
+}
+
+.al-str {
+    align-items: start;
+}
+
+.jc-end {
+    justify-content: end;
+}
+
+.title-large {
+    font-size: 1rem;
+    color: white;
+}
+
+.gp-4 {
+    gap: 0.25rem;
+}
+
+.gp-8 {
+    gap: 0.5rem;
+}
+
+.gp-12 {
+    gap: 0.75rem;
+}
+
+.gp-16 {
+    gap: 1rem;
+}
