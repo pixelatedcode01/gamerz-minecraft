@@ -11,11 +11,13 @@ export default function MainHeader() {
                 <p className='sub-heading'>Minecraft Server</p>
             </div>
             <div className="navigation row gp-16">
-                <div className="join-discord button row al-ctr jc-ctr gp-12">
-                    <md-ripple></md-ripple>
-                    <img className="discord-logo" src="discord-logo.svg" alt="" />
-                    {/* <p>Join Server</p> */}
-                </div>
+                <a href="https://discord.gg/AyUcdMCg" target='_blank'>
+                    <div className="join-discord button row al-ctr jc-ctr gp-12">
+                        <md-ripple></md-ripple>
+                        <img className="discord-logo" src="discord-logo.svg" alt="" />
+                        {/* <p>Join Server</p> */}
+                    </div>
+                </a>
                 <div className="support button row al-ctr jc-ctr gp-12">
                     <md-ripple></md-ripple>
                     <span className="material-symbols-rounded support-icon">volunteer_activism</span>

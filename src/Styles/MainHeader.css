@@ -3,16 +3,16 @@
 }
 
 .heading {
-    font-size: 8rem;
+    font-size: 6.5vw;
     font-weight: 900;
     letter-spacing: .20rem;
     user-select: none;
-    box-shadow: var(--shadow-dark-elevation-high);
+    text-shadow: 4px 4px 50px black;
 }
 
 .heading::after {
     content: "Z";
-    font-size: 8.5rem;
+    font-size: 6.7vw;
     font-family: 'Pixelify Sans', sans-serif;
 }
 
