@@ -1,4 +1,5 @@
 import '../Styles/MainHeader.css';
+import '@material/web/ripple/ripple.js';
 
 export default function MainHeader() {
     return (
@@ -11,12 +12,14 @@ export default function MainHeader() {
             </div>
             <div className="navigation row gp-16">
                 <div className="join-discord button row al-ctr jc-ctr gp-12">
+                    <md-ripple></md-ripple>
                     <img className="discord-logo" src="discord-logo.svg" alt="" />
-                    <p>Join Server</p>
+                    {/* <p>Join Server</p> */}
                 </div>
                 <div className="support button row al-ctr jc-ctr gp-12">
+                    <md-ripple></md-ripple>
                     <span className="material-symbols-rounded support-icon">volunteer_activism</span>
-                    <p>Support</p>
+                    {/* <p>Support</p> */}
                 </div>
             </div>
         </div>

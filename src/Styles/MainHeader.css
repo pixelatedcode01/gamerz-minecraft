@@ -6,6 +6,8 @@
     font-size: 8rem;
     font-weight: 900;
     letter-spacing: .20rem;
+    user-select: none;
+    box-shadow: var(--shadow-dark-elevation-high);
 }
 
 .heading::after {
@@ -20,7 +22,7 @@
 
 .sub-heading {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 700;
     text-transform: uppercase;
     color: #FBB52E;
 }
@@ -28,9 +30,13 @@
 .button {
     height: 56px;
     padding: 1rem;
+    user-select: none;
+    position: relative;
+    font-weight: 500;
     width: fit-content;
     background-color: pink;
     border-radius: 0.25rem;
+    box-shadow: var(--shadow-dark-elevation-low);
 
     &>* {
         color: black;
@@ -38,11 +44,9 @@
 
     &:hover {
         cursor: pointer;
+        box-shadow: var(--shadow-dark-elevation-high);
     }
 
-    &:hover>p {
-        font-weight: 500;
-    }
 }
 
 .join-discord {

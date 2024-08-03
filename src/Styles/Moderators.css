@@ -1,0 +1,51 @@
+.mods-container {
+    padding: 1rem;
+}
+
+.mod-header {
+    padding: 1rem;
+    backdrop-filter: blur(20px);
+    font-size: 1.20rem;
+    box-shadow: var(--shadow-dark-elevation-high);
+    border-radius: 9999px;
+
+}
+
+.mod-container div {
+    height: fit-content;
+    width: fit-content;
+    padding: 2rem;
+}
+
+.moderator {
+    box-shadow: var(--shadow-dark-elevation-low);
+    border-radius: 4px;
+
+    & img {
+        height: 120px;
+        box-shadow: var(--shadow-dark-elevation-medium);
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:hover img {
+        box-shadow: var(--shadow-dark-elevation-high);
+        scale: 1.05;
+    }
+
+    & p {
+        font-size: 1.20rem;
+        font-weight: 500;
+    }
+}
+
+.itachi {
+    background-color: #303030;
+
+}
+
+.sahil {
+    background-color: #468B36;
+}
