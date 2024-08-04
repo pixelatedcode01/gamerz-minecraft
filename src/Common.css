@@ -31,7 +31,7 @@
 
 .title-large {
     font-size: 1rem;
-    color: white;
+    color: #000;
 }
 
 .gp-4 {
@@ -52,4 +52,8 @@
 
 .gp-24 {
     gap: 1.5rem;
+}
+
+.jc-sb {
+    justify-content: space-between;
 }

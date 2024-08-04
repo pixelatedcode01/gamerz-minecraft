@@ -1,0 +1,46 @@
+.document-container {
+    flex: 1;
+    width: 100%;
+    padding: 1rem;
+
+}
+.document-container *{
+    color: #000;
+}
+ol li {
+    list-style-position: inside;
+}
+.document-page {
+    padding: 1.5rem;
+    width: max(250px, 55%);
+    height: fit-content;
+    overflow: auto;
+    font-weight: 500;
+    background-color: white;
+    box-shadow: var(--shadow-dark-elevation-low);
+    border-radius: 0.25rem;
+}
+
+.document-heading>p:first-child {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.document-banner{
+    height: 20vw;
+    overflow: clip;
+    background: url("public/server-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step-one ul{
+    margin-left: 1.5rem;
+}
+.video-container{
+    & iframe{
+        width: 100%;
+    }
+}

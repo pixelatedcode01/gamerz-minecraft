@@ -38,3 +38,7 @@
     -0.1px 52.6px 51.3px -3.1px hsl(var(--shadow-color-dark) / 0.07),
     -0.2px 72.4px 70.6px -3.5px hsl(var(--shadow-color-dark) / 0.06);
 }
+
+a{
+  text-decoration: none;
+}

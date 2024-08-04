@@ -1,0 +1,5 @@
+.website-name::after{
+    content: "Z";
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.65rem;
+}
