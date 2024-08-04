@@ -4,12 +4,15 @@
     padding: 1rem;
 
 }
-.document-container *{
+
+.document-container * {
     color: #000;
 }
+
 ol li {
     list-style-position: inside;
 }
+
 .document-page {
     padding: 1.5rem;
     width: max(250px, 55%);
@@ -27,20 +30,21 @@ ol li {
     color: #000;
 }
 
-.document-banner{
+.document-banner {
     height: 20vw;
     overflow: clip;
-    background: url("public/server-banner.png");
+    background: url("../public/server-banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.step-one ul{
+.step-one ul {
     margin-left: 1.5rem;
 }
-.video-container{
-    & iframe{
+
+.video-container {
+    & iframe {
         width: 100%;
     }
 }
