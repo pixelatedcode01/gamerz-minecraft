@@ -33,7 +33,7 @@ ol li {
 .document-banner {
     height: 20vw;
     overflow: clip;
-    background: url("../public/server-banner.png");
+    background: url("../../public/server-banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
