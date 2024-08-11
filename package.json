@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "@material/web": "^2.0.0",
+    "extract-colors": "^4.0.6",
+    "get-pixels": "^3.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0"

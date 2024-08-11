@@ -31,7 +31,7 @@ export default function MainHeader() {
             name: 'Join Discord Server',
             class: ['join-discord', 'discord-logo'],
             url: 'discord-logo.svg',
-            link: 'https://discord.gg/AyUcdMCg',
+            link: 'https://discord.gg/zCSsK7ajkk',
             active: false
         },
         {
@@ -39,7 +39,7 @@ export default function MainHeader() {
             name: 'Support',
             class: ['support', 'support-icon'],
             icon: 'volunteer_activism',
-            link: '',
+            link: 'https://ko-fi.com/Q5Q011P6FY',
             active: false
         }
 
