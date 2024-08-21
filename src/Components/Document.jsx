@@ -28,7 +28,7 @@ export default function Document() {
                         <p>Watch the tutorial video embedded below or follow the written instructions to correctly install the downloaded files.</p>
                     </div>
                     <div className="video-container">
-                    <iframe src="https://drive.google.com/file/d/1tdcy9xBJH7LSlNLZYWo09x9dhPoVZY-S/preview" height="480" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1vR8cGKdL04_6bzZV2NOUjiFLN0jXAWhS/preview" height="480" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>

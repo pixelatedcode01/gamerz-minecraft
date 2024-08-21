@@ -7,6 +7,7 @@ import Header from './Components/Header'
 import HeaderRead from './Components/HeaderRead'
 import MainHeader from './Components/MainHeader'
 import Moderators from './Components/Moderators'
+import ShoppingPage from './Components/ShoppingPage'
 
 function App() {
 
@@ -26,6 +27,11 @@ function App() {
           </>
         }
         />
+        <Route path='/shop' element={
+          <>
+            <ShoppingPage></ShoppingPage>
+          </>
+        } />
       </Routes>
       {/* <BannerIcons />
       <MainHeader />
