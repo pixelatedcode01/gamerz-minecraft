@@ -76,7 +76,7 @@
     position: relative;
     height: 76px;
     width: 76px;
-    background: url('../public/Minecraft_Downloads.svg');
+    background: url('../../public/Minecraft_Downloads.svg');
     /* background-size: cover; */
     background-position: center;
     background-size: 120%;
