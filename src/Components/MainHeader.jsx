@@ -75,14 +75,18 @@ export default function MainHeader() {
                     marginTop: '-1rem',
                 }}
             >
-                <p className='sub-heading'>Minecraft Server</p>
+                <p className='sub-heading'
+                    style={{ fontFamily: 'Pixelify Sans' }}
+                >Minecraft Server</p>
             </div>
             <div className='col about_container'
-                onClick={() => setIsAboutOpen(!isAboutOpen)}
+
             >
                 <div className={`about_us row`}>
                     <div className={`about_data row al-ctr jc-ctr `}>
-                        <div className={`visible_about flex col ${isAboutOpen ? 'open' : ''} `}>
+                        <div className={`visible_about flex col ${isAboutOpen ? 'open' : ''} `}
+                            onClick={() => setIsAboutOpen(!isAboutOpen)}
+                        >
                             <h4
                                 style={{
                                     padding: '1rem',
@@ -91,7 +95,7 @@ export default function MainHeader() {
                             <div className='about_body flex col gp-12'>
                                 <p>Dive into a world where adventure never ends! Our server is packed with thrilling features to keep you on your toes:</p>
                                 <p>🗺️ Explore Custom Worlds: Discover brand new biomes in all 3 world, massive End cities, and a reimagined Nether with 15+ unique structures!</p>
-                                <p>🐉 Face the End Dragons: Take on 5 different types of End Dragons for the ultimate showdown.</p>
+                                <p>🐉 Face the End Dragon: Take on Modded End Dragon for the ultimate showdown.</p>
                                 <p>💀 Keep Your Loot Safe: Our Gravestone mod ensures your items are secured if you meet an untimely end.</p>
                                 <p>👾 Meet 100+ New Mobs: Encounter a variety of new creatures, from armored Illagers to otherworldly beasts.</p>
                                 <p>🏠 Secure Your Home: Use Grief Prevention to protect your builds, and set up to 5 homes for easy teleportation.</p>

@@ -100,7 +100,7 @@
 
 .about_container {
     margin-bottom: 1.5rem;
-    cursor: pointer;
+
 }
 
 .about_us {
@@ -126,6 +126,7 @@
     width: 550px;
     min-width: 300px;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .about_body::-webkit-scrollbar {
@@ -151,8 +152,9 @@
 .visible_about.open {
     backdrop-filter: blur(100px);
     background-color: rgba(255, 255, 255, 0.2);
-    & h4{
-        box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2);
+
+    & h4 {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 }
 

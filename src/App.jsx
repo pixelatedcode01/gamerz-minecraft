@@ -8,11 +8,13 @@ import HeaderRead from './Components/HeaderRead'
 import MainHeader from './Components/MainHeader'
 import Moderators from './Components/Moderators'
 import ShoppingPage from './Components/ShoppingPage'
+import TrailerView from './Components/TrailerView'
 
 function App() {
 
   return (
     <div className='main-container col'>
+      <TrailerView />
       <Routes>
         <Route path='/' element={<>
           <Header />
