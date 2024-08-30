@@ -17,7 +17,7 @@
     width: 80%;
     height: 80%;
     z-index: 10000;
-    overflow: clip;
+    /* overflow: clip; */
 }
 
 .trailer-view-trigger.open .trailer-button-container {
@@ -58,6 +58,16 @@
     }
 }
 
+.block-control {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.8;
+    /* z-index: 99999; */
+    /* pointer-events: none; */
+    position: absolute;
+}
+
 .close-video {
     background-color: black;
     color: white;
@@ -71,16 +81,18 @@
 }
 
 .trailer-button-container {
-    box-shadow: var(--shadow-dark-elevation-medium);
+    /* box-shadow: var(--shadow-dark-elevation-medium); */
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
     cursor: pointer;
     position: relative;
-    height: 76px;
-    width: 76px;
-    background: url('../../public/Minecraft_Downloads.svg');
-    /* background-size: cover; */
+    height: 140px;
+    width: 140px;
+    background: url('../../public/golem.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: 120%;
-    border-radius: 1rem;
+    background-size: 100%;
+    /* border-radius: 1rem; */
     animation: breathing 2s infinite;
     transition: all 0.2s ease-in-out;
 
@@ -91,8 +103,8 @@
     }
 
     &:hover {
-        height: 108px;
-        width: 108px;
+        height: 160px;
+        width: 160px;
         border-radius: 1.5rem;
         animation: none;
     }

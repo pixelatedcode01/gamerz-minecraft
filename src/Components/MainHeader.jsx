@@ -86,6 +86,8 @@ export default function MainHeader() {
                     <div className={`about_data row al-ctr jc-ctr `}>
                         <div className={`visible_about flex col ${isAboutOpen ? 'open' : ''} `}
                             onClick={() => setIsAboutOpen(!isAboutOpen)}
+                            onMouseEnter={() => setIsAboutOpen(true)}
+                            onMouseLeave={() => setIsAboutOpen(false)}
                         >
                             <h4
                                 style={{
