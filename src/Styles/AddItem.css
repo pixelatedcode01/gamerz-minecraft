@@ -1,0 +1,45 @@
+.additem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.additem-wrapper {
+    width: 300px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: var(--shadow-dark-elevation-high);
+    color: black;
+}
+
+.add-item-button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.back-button {
+    width: 100%;
+    padding: 0.5rem;
+    /* background-color: wheat; */
+    color: black;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.reset-button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}

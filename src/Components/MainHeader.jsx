@@ -45,15 +45,15 @@ export default function MainHeader() {
             active: false,
             target: '_blank'
         },
-        // {
-        //     id: 3,
-        //     name: 'Shop',
-        //     class: ['shop', 'shopping-cart'],
-        //     icon: 'shopping_cart',
-        //     link: '/shop',
-        //     active: false,
-        //     target: '_self'
-        // }
+        {
+            id: 3,
+            name: 'Shop',
+            class: ['shop', 'shopping-cart'],
+            icon: 'shopping_cart',
+            link: 'https://ko-fi.com/gamerzmc/shop',
+            active: false,
+            target: '_blank'
+        }
 
     ]);
     function handleActionClick(id) {
